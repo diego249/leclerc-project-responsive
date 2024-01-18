@@ -29,3 +29,32 @@ body {
 ::-webkit-scrollbar-track {
   background-color: #f1f1f1;
 }
+
+/* Hero */
+.hero-image-stack {
+  margin-left: 65%;
+}
+
+.title-ferrari {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 400;
+  color: #A30016;
+}
+
+.title-formula {
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 400;
+  color: #161616;
+}
+
+.title-charles {
+  color: #A30016;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 400;
+}
+
+.title-leclerc {
+  color: #161616;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 400;
+}
