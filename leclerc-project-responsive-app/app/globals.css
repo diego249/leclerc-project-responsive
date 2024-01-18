@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "./styles/fonts.css";
+
+/* Body general */
+body {
+  background-color: #F5F5F5;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* Setear fuente */
+.font-general {
+  font-family: 'Exo 2', sans-serif;
+}
+
+/* Estilos para la barra de desplazamiento */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #a3001671;
+  border-radius: 6px;
+  border: 3px solid #fff;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
