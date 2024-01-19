@@ -20,7 +20,7 @@ const Hero = () => {
   }, [controls, inView]);
 
   return (
-    <div style={{ height: '100vh' }}>
+    <div style={{ height: '50vw' }}>
       <div className="text-white p-8" style={{ position: 'absolute', top: '25vw', left: '10%', transform: 'translate(0%, -50%)' }}>
         {/* Cartel con opacidad detrás de los h1 */}
         <div

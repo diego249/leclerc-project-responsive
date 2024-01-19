@@ -19,7 +19,7 @@ const Aboutme = () => {
   }, [controls, inView]);
 
   return (
-    <div style={{ height: '100vh' }}>
+    <div style={{ height: '50vw' }}>
       <div className='rotatedRectangle'>
           <motion.img
             ref={ref}
@@ -47,7 +47,7 @@ const Aboutme = () => {
                   hidden: { opacity: 0, y: 30, rotate: -7 },
                 }}
                 transition={{ duration: 0.3, delay: 0.3 }}
-                style={{ color: "#FDFDFD", fontSize: "5rem" }}>About me
+                style={{ color: "#FDFDFD", fontSize: "4vw" }}>About me
               </motion.h1>
               <motion.p
                 ref={ref}
@@ -58,7 +58,7 @@ const Aboutme = () => {
                   hidden: { opacity: 0, y: 30, rotate: -7 },
                 }}
                 transition={{ duration: 0.3, delay: 0.6 }}
-                style={{ color: "#FDFDFD", fontSize: "1.5rem" }}>
+                style={{ color: "#FDFDFD", fontSize: "1vw" }}>
                   A precocious champion with breathtaking talent,
                   Monaco’s Charles Leclerc is pursuing a sensational career in motorsport.
                   He has not stopped developing his innate talent since the earliest days,
