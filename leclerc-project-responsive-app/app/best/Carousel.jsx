@@ -29,6 +29,7 @@ const Carousel = ({ imagePaths }) => {
     slidesToScroll: 1,
     centerPadding: '1vw', // Ajusta el espacio entre las imágenes
     variableWidth: true,
+
     // autoplay: true, // Habilita la reproducción automática
     // autoplaySpeed: 1000,
   };
@@ -48,6 +49,7 @@ const Carousel = ({ imagePaths }) => {
                     className={ 'carousel-image' }
                     src={`/${imagePath}`}
                     alt={`Slide ${index + 1}`}
+                    style={{ width: '15vw', height: 'auto' }}
                 />
                 </div>
             ))}

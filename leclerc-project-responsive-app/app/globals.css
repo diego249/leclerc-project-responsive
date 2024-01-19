@@ -99,3 +99,12 @@ body {
   width: 27.5%;
   transform: rotate(-7deg); 
 }
+
+/* Brands */
+.slider-brands {
+  padding-top: 1vw;
+}
+
+.brands-container {
+  background-image: url('./../public/lec_letters_brands.png');
+}
