@@ -21,12 +21,12 @@ const Hero = () => {
 
   return (
     <div style={{ height: '100vh' }}>
-      <div className="text-white p-8" style={{ position: 'absolute', top: '50%', left: '10%', transform: 'translate(0%, -50%)' }}>
+      <div className="text-white p-8" style={{ position: 'absolute', top: '25vw', left: '10%', transform: 'translate(0%, -50%)' }}>
         {/* Cartel con opacidad detrás de los h1 */}
         <div
           className="absolute flex items-center"
           style={{
-            top: '50%',
+            top: '12.5vw',
             left: '5%',
             transform: 'translate(0%, -50%)',
             zIndex: -1, // Coloca el cartel detrás de los h1
@@ -66,8 +66,7 @@ const Hero = () => {
             visible: { opacity: 1, x: 0 },
             hidden: { opacity: 0, x: 30 },
           }}
-          transition={{ duration: 0.3 }}
-          className="text-8xl">
+          transition={{ duration: 0.3 }}>
           <span className='title-ferrari'>FERRARI</span>
         </motion.h1>
         <motion.h1
@@ -78,8 +77,7 @@ const Hero = () => {
             visible: { opacity: 1, x: 0 },
             hidden: { opacity: 0, x: 30 },
           }}
-          transition={{ duration: 0.3, delay: 0.15 }}
-          className="text-8xl">
+          transition={{ duration: 0.3, delay: 0.15 }}>
           <span className='title-formula'>Formula One</span>
         </motion.h1>
         <motion.h1
@@ -90,12 +88,11 @@ const Hero = () => {
             visible: { opacity: 1, x: 0 },
             hidden: { opacity: 0, x: 30 },
           }}
-          transition={{ duration: 0.3, delay: 0.3 }}
-          className="text-8xl">
+          transition={{ duration: 0.3, delay: 0.3 }}>
           <span className='title-formula'>Driver</span>
         </motion.h1>
       </div>
-      <div style={{ position: 'absolute', top: '15%', left: '52.5%' }}>
+      <div style={{ position: 'absolute', top: '10vw', left: '52.5%' }}>
         <ImageStack />
       </div>
     </div>

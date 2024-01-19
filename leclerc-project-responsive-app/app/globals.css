@@ -8,6 +8,7 @@ body {
   background-color: #F5F5F5;
   margin-left: 10%;
   margin-right: 10%;
+  overflow-x: hidden;
 }
 
 /* Setear fuente */
@@ -39,12 +40,14 @@ body {
   font-family: 'Exo 2', sans-serif;
   font-weight: 400;
   color: #A30016;
+  font-size: 4.5vw;
 }
 
 .title-formula {
   font-family: 'Exo 2', sans-serif;
   font-weight: 400;
   color: #161616;
+  font-size: 4.5vw;
 }
 
 .title-charles {
@@ -57,4 +60,42 @@ body {
   color: #161616;
   font-family: 'Exo 2', sans-serif;
   font-weight: 400;
+}
+
+/* About me */
+.rotatedRectangle {
+  position: relative;
+  margin-left: -50%;
+  width: 200%;
+  height: 100%;
+  background-color: #161616;
+  transform: rotate(7deg);
+  background-image: url('./../public/lec_letters.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.image-whoami {
+  margin-left: 27.5%;
+  margin-top: 6%;
+  width: 30vw;
+  height: 30vw;
+  transform: rotate(-7deg);
+  box-shadow: '0 0 10px rgba(0, 0, 0, 0.5)',
+}
+
+.text-whoami h1 {
+  text-align: left;
+  margin-top: 2%;
+  margin-left: 25%;
+  transform: rotate(-7deg); 
+}
+
+.text-whoami p {
+  text-align: justify;
+  margin-top: 4%;
+  margin-left: 25%;
+  width: 27.5%;
+  transform: rotate(-7deg); 
 }
