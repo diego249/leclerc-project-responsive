@@ -2,7 +2,7 @@
 
 import { React, useState, useEffect } from 'react';
 import Slider from 'react-slick';
-import { motion, useAnimation } from 'framer-motion';
+import { distance, motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 
@@ -76,8 +76,8 @@ const Carousel = ({ imagePaths }) => {
         <Slider {...settings} afterChange={handleSlideChange}>
         {imagePaths.map((imagePath, index) => {
           const distanceFromCenter = Math.abs(index - currentSlide);
-          const scale = distanceFromCenter === 1 ? 1 : 0.8; // Ajusta este valor según tus necesidades
-          const blur = distanceFromCenter > 1 || distanceFromCenter < 1 ? 'blur(5px)' : 'none'; // Ajusta el valor del desenfoque según tus necesidades
+          const scale = distanceFromCenter === 1 ? 1 : 0.8;
+          const blur = distanceFromCenter > 1 || distanceFromCenter < 1 ? 'blur(5px)' : 'none';
 
           return (
             <div key={index}>
@@ -88,9 +88,10 @@ const Carousel = ({ imagePaths }) => {
                 style={{
                   transform: `scale(${scale})`,
                   filter: blur,
-                  transition: 'transform 0.5s, filter 0.5s', // Agrega una transición suave si lo deseas
+                  transition: 'transform 0.5s, filter 0.5s',
                   width: '15vw',
                   height: 'auto',
+                  borderRadius: '3px',
                 }}
               />
             </div>
