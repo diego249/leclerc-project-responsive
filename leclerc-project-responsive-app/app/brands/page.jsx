@@ -18,7 +18,7 @@ const Brands = () => {
     }, [controls, inView]);
 
     return (
-        <div className='brands-container' style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '20vh', backgroundColor: '#161616', marginLeft: '-20%', marginRight: '-27.5%'}}>
+        <div className='brands-container' style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '10vw', backgroundColor: '#161616', marginLeft: '-20%', marginRight: '-27.5%'}}>
             <motion.img
               ref={ref}
               initial="hidden"
@@ -28,7 +28,7 @@ const Brands = () => {
                 hidden: { opacity: 0, y: 30 },
               }}
               transition={{ duration: 0.3 }}
-              src="/ferrari.png" alt="brand_ferrari" style={{ marginRight: '10%', marginLeft: '5%' }}/>
+              src="/ferrari.png" alt="brand_ferrari" style={{ marginRight: '10%', marginLeft: '5%', width: '3.5vw' }}/>
             <motion.img
               ref={ref}
               initial="hidden"
@@ -38,7 +38,7 @@ const Brands = () => {
                 hidden: { opacity: 0, y: 30 },
               }}
               transition={{ duration: 0.3, delay: 0.15 }}
-              src="/apm.png" alt="brand_ferrari" style={{ marginRight: '10%' }} />
+              src="/apm.png" alt="brand_ferrari" style={{ marginRight: '10%', width: '3.5vw' }} />
             <motion.img
               ref={ref}
               initial="hidden"
@@ -48,7 +48,7 @@ const Brands = () => {
                 hidden: { opacity: 0, y: 30 },
               }}
               transition={{ duration: 0.3, delay: 0.3 }} 
-              src="/dior.png" alt="brand_ferrari" style={{ marginRight: '10%' }}/>
+              src="/dior.png" alt="brand_ferrari" style={{ marginRight: '10%', width: '4vw' }}/>
             <motion.img
               ref={ref}
               initial="hidden"
@@ -58,7 +58,7 @@ const Brands = () => {
                 hidden: { opacity: 0, y: 30 },
               }}
               transition={{ duration: 0.3, delay: 0.45 }}  
-              src="/richard.png" alt="brand_ferrari" style={{ marginRight: '10%' }}/>
+              src="/richard.png" alt="brand_ferrari" style={{ marginRight: '10%', width: '6vw' }}/>
             <motion.img
               ref={ref}
               initial="hidden"
@@ -68,7 +68,7 @@ const Brands = () => {
                 hidden: { opacity: 0, y: 30 },
               }}
               transition={{ duration: 0.3, delay: 0.6 }}  
-              src="/vista.png" alt="brand_ferrari" style={{ marginRight: '10%' }}/>
+              src="/vista.png" alt="brand_ferrari" style={{ marginRight: '10%', width: '4vw' }}/>
             <motion.img
               ref={ref}
               initial="hidden"
@@ -78,7 +78,7 @@ const Brands = () => {
                 hidden: { opacity: 0, y: 30 },
               }}
               transition={{ duration: 0.3, delay: 0.75 }}  
-              src="/riva.png" alt="brand_ferrari" style={{ marginRight: '10%' }}/>
+              src="/riva.png" alt="brand_ferrari" style={{ marginRight: '10%', width: '4vw' }}/>
         </div>
       );
     };

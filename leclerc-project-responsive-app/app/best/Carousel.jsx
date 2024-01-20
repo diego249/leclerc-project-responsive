@@ -25,28 +25,22 @@ const Carousel = ({ imagePaths }) => {
     dots: true,
     infinite: true,
     speed: 1000,
-    slidesToShow: 2,
+    slidesToShow: 3,
     slidesToScroll: 1,
-    centerPadding: '1vw', // Ajusta el espacio entre las imágenes
-    variableWidth: true,
-
-    // autoplay: true, // Habilita la reproducción automática
-    // autoplaySpeed: 1000,
   };
 
-  // Asegúrate de que imagePaths sea un array antes de llamar a map
   if (!Array.isArray(imagePaths) || imagePaths.length === 0) {
-    return null; // O maneja este caso de manera apropiada para tu aplicación
+    return null;
   }
 
   return (
-    <div style={{ width: '70vw', marginLeft: '5%' }}>
+    <div style={{ width: '60vw', marginLeft: '10vw'}}>
         <Slider {...settings}>
             {imagePaths.map((imagePath, index) => (
                 <div
                 key={index}>
                 <img
-                    className={ 'carousel-image' }
+                    className='carousel-image'
                     src={`/${imagePath}`}
                     alt={`Slide ${index + 1}`}
                     style={{ width: '15vw', height: 'auto' }}
