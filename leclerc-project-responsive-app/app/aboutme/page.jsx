@@ -29,7 +29,7 @@ const Aboutme = () => {
               visible: { opacity: 1, y: 0, rotate: -7 },
               hidden: { opacity: 0, y: 30, rotate: -7 },
             }}
-            transition={{ duration: 0.3, delay: 0.3 }}
+            transition={{ duration: 0.15, delay: 0.15 }}
             src="/lec_who.png"
             alt="Imagen"
             className="image-whoami"
@@ -46,7 +46,7 @@ const Aboutme = () => {
                   visible: { opacity: 1, y: 0, rotate: -7 },
                   hidden: { opacity: 0, y: 30, rotate: -7 },
                 }}
-                transition={{ duration: 0.3, delay: 0.3 }}
+                transition={{ duration: 0.15, delay: 0.3 }}
                 style={{ color: "#FDFDFD", fontSize: "4vw" }}>About me
               </motion.h1>
               <motion.p
@@ -57,7 +57,7 @@ const Aboutme = () => {
                   visible: { opacity: 1, y: 0, rotate: -7 },
                   hidden: { opacity: 0, y: 30, rotate: -7 },
                 }}
-                transition={{ duration: 0.3, delay: 0.6 }}
+                transition={{ duration: 0.15, delay: 0.45 }}
                 style={{ color: "#FDFDFD", fontSize: "1vw" }}>
                   A precocious champion with breathtaking talent,
                   Monaco’s Charles Leclerc is pursuing a sensational career in motorsport.
