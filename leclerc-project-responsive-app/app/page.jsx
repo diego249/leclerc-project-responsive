@@ -6,6 +6,8 @@ import Hero from './hero/page'
 import Aboutme from './aboutme/page'
 import Best from './best/page'
 import Brands from './brands/page'
+import Stats from './stats/page'
+import Footer from './footer/page'
 
 const Home = () => {
   return (
@@ -15,6 +17,8 @@ const Home = () => {
       <Aboutme />
       <Best />
       <Brands />
+      <Stats />
+      <Footer />
     </div>
   );
 };

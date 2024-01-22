@@ -88,7 +88,7 @@ const Carousel = ({ imagePaths }) => {
                 style={{
                   transform: `scale(${scale})`,
                   filter: blur,
-                  transition: 'transform 0.5s, filter 0.5s',
+                  transition: 'transform 0.45s, filter 0.45s',
                   width: '15vw',
                   height: 'auto',
                   borderRadius: '3px',

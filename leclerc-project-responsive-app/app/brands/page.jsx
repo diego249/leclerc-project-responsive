@@ -18,7 +18,7 @@ const Brands = () => {
     }, [controls, inView]);
 
     return (
-        <div className='brands-container' style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '10vw', backgroundColor: '#161616', marginLeft: '-20%', marginRight: '-27.5%'}}>
+        <div className='brands-container' style={{ marginTop: '5%', display: 'flex', alignItems: 'center', justifyContent: 'center', height: '10vw', backgroundColor: '#161616', marginLeft: '-20%', marginRight: '-27.5%'}}>
             <motion.img
               ref={ref}
               initial="hidden"
